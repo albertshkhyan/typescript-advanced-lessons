@@ -55,4 +55,39 @@ Output js we will store in dist folder?
             ⚠ current version understand document, but for example use proxy we must add it in lib
 
 
+            "allowJs" and "checkJs" keys in tsconfig.json 
+                 if you want to use some features from typescript
+                    --checkJs на самом деле просто означают сообщения об ошибках в .jsфайлах, уже включенных в проект. Флаг необходим, поскольку поведение по умолчанию для файлов .js заключается в том, что они не сообщают об ошибках, и мы не хотели вносить критические изменения при добавлении этой функции.
+
+            if we develop using JSX
+                We must switch this key
+                    "jsx": "react",
+            https://github.com/microsoft/TypeScript-React-Starter/blob/master/tsconfig.json
+
+
+            "sourceMap" - for can debuger ts files, durring debug browser can show ts file not compiled js
+                "sourceMap": true - this command generate app.js.map file
+
+            
+            "noEmitOnError": false - by default false, when we have error typescript create(generate) file, we can say that if we have error not create file in dist(output folder)
+
+
+
+
+
+
+
+
+            *************** STRICT TYPE CHECKING OPTION ***************
+            "strictEmplicitAny": true - if flase not show errors. Exmaple when we not specify type of function paramter
+
+
+
+
+
+            *************** ADDITIONAL CHECKS ***************
+           "noUnusedLocals": true -  When we write variable which we not use typescript give error, we can switch off it , jsut set value false - this is like eslint for ts
+
+
+
 */
