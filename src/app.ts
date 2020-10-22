@@ -1,4 +1,28 @@
 
+/*************************************************************** */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // let prx = new Proxy()
 
 // let b1 = document.querySelector(".btn");
@@ -19,11 +43,11 @@
 // });
 
 //# Fix problem 2
-let b1 = document.querySelector('.btn');
-console.log('b1', b1);
-b1?.addEventListener('click', () => {//optional
-	console.log('Button has been clicked!');
-});
+// let b1 = document.querySelector('.btn');
+// console.log('b1', b1);
+// b1?.addEventListener('click', () => {//optional
+// 	console.log('Button has been clicked!');
+// });
 
 
 
@@ -40,14 +64,16 @@ b1?.addEventListener('click', () => {//optional
 // multiple(2,5)
 
 
-function multiple(a: number, b: number) {//✅
-	//error must return somthing
-	if (!a && !b) {
-		return a * b;
-    }
-    return;
-}
-multiple(2, 5);
+// function multiple(a: number, b: number) {//✅
+// 	//error must return somthing
+// 	if (!a && !b) {
+// 		return a * b;
+//     }
+//     return;
+// }
+// multiple(2, 5);
+// console.log("hello im typscript");
+
 
 
 

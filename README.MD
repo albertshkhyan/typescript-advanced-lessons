@@ -1,3 +1,20 @@
+# Use type Script or not ?
+    -Soundness and Completeness system 
+        ![alt text](http://url/to/img.png)
+            soundness - doesnot reject correct programs
+                sound type system
+                    a program, during type checking, will not be "approved" if that program has type errors.
+                    Кроме того, надо понимать, что надёжная система типов не пропустит неправильную программу
+                    
+* Soundness система гарантирует что там  где есть ошибка код не скомпилируется но может не пропустить и правильную программу
+
+* Completeness system гарантирует что если ты напислал код правильно то ваш код точно скомпилируется 
+
+
+
+
+
+
 # Продвинутый TypeScript. Декораторы, Компилятор, Generic Types, Namespaces
 
 /*
