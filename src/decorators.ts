@@ -139,7 +139,7 @@ interface IDecComponent {
 }
 
 function DecComponent(config: IDecComponent) {
-	//in angular in decorators wgite can add any option (object, string and etc)
+	///in angular in decorators wgite can add any option (object, string and etc)
 	//How add any option in - just return new function (useing closure)
 	return function (constructor: Function) {
 		// ⚠ This function will be our decorator, first function will get config (data) for this decorator
